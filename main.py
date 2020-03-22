@@ -30,7 +30,7 @@ async def on_ready():
 
 @cliente.event
 async def on_message(message):
-    if (message.author.id == '689589012045889588'): return
+    if (message.author.id == 'TOKEN DO SEU BOT'): return
     global escolhido, embed, rola
     if message.content.startswith('+'):
         huy = message.content[1:].strip()
@@ -576,7 +576,7 @@ async def on_message(message):
             if message.mentions.__len__() > 0:
                 for us in message.mentions:
                     userr = message.author.id
-                    if userr == "409870907067203584":
+                    if userr == "ADMIN ID":
                         embed = discord.Embed(
                             title="Eu o declaro culpado ",
                             color=discord.Colour.orange(),
@@ -600,7 +600,7 @@ async def on_message(message):
             if message.mentions.__len__() > 0:
                 for us in message.mentions:
                     userr = message.author.id
-                    if userr == "409870907067203584":
+                    if userr == "ADMIN ID":
                         embed = discord.Embed(
                             title="PELOS PODEROS DO ADMIN VOCE ESTÁ MUTADO",
                             color=discord.Colour.dark_blue(),
@@ -626,7 +626,7 @@ async def on_message(message):
             if message.mentions.__len__() > 0:
                 for us in message.mentions:
                     userr = message.author.id
-                    if userr == "409870907067203584":
+                    if userr == "ADMIN ID":
                         embed = discord.Embed(
                             title="O ADMIN TA ON",
                             color=discord.Colour.blue(),
@@ -735,7 +735,7 @@ async def on_member_join(member):
     img.save('bv.png')
     await cliente.send_file(canal, 'bv.png')
 
+cliente.run('TOKEN DO SEU BOT')
 
-DROPBOX_TOKEN='jOzZ7BfHhRAAAAAAAAAAbiD_GHWo8zK5UlYr1Np3sNKEcP8huNH8QINUb-DkJNfy'
-cliente.run('Njg5NTg5MDEyMDQ1ODg5NTg4.XnGJ3w.XT-83hKlJrpPgkJI06Fze8g8OtI')
+OWNER == LUCAS VIEIRA DA SILVA ------ DISCORD == Darling#3852
 
