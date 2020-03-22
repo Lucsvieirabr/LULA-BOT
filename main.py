@@ -727,7 +727,7 @@ async def on_reaction_remove(reaction, user):
 
 @cliente.event
 async def on_member_join(member):
-    canal = cliente.get_channel("689606043226865683")
+    canal = cliente.get_channel("ID DO SEU CANAL DE BEM VINDO OU OUTRO QUE DESEJA DAR BOAS VINDAS")
     img = Image.open('bemvindo.jpg')
     fonte = ImageFont.truetype('Daitengu DEMO.otf', 120)
     escrever = ImageDraw.Draw(img)
